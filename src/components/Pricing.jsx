@@ -3,26 +3,6 @@ import { Button, Card, Col, Row } from "antd";
 import { SendOutlined } from "@ant-design/icons";
 
 const Pricing = () => {
-  const data = [
-    {
-      title: "PREMIUM",
-      price: "59.99 $",
-      space: "5 GB of space",
-      users: "5 user",
-      support: "27/7 support",
-      safe: "Safe, reliable backup",
-      access: "Access from anywhere",
-    },
-    {
-      title: "ENTERPRISE",
-      price: "99.99 $",
-      space: "Unlimited space",
-      users: "15 user",
-      support: "27/7 support",
-      safe: "Safe, reliable backup",
-      access: "Access from anywhere",
-    },
-  ];
   return (
     <Wrapper id="Pricing">
       <div className="container">
